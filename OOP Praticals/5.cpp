@@ -12,7 +12,7 @@ class fact{
         fact(fact &b){ // Copy Constructor
             int f = 1;
             n = b.n;
-            for(int i = 1;i<b.n;i++)
+            for(int i = 1;i<=b.n;i++)
                 f = f * i;
             cout<<"\n Factorial = "<<f;
         } 
