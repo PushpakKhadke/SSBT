@@ -1,0 +1,31 @@
+1. Start
+
+2. Declare a class admission with the data members tot, ctot, etot as an integer and
+name, branch as a character.
+
+3. Create default constructor to initialize tot=0, ctot=0, etot=0
+
+4. Define a function void operator ++() for overloading increment operator. In this call
+getdata() and check if branch is computer or electrical. If computer then increment ctot bt
+1 else etot=1 also tot by 1
+
+5. Define a simple function getdata() for getting the name and branch
+
+6. Define a function void operator –() for overloading decrement operator(), then according
+to it decrement operator()
+
+7. Define a simple function display() to display all details of admission and total admission.
+i.e tot = ctot + etot
+
+8. Main() function create object of class admission adm. Create menu and display
+options. Menu is as
+i. Admission
+ii. Cancel admission
+iii. Display
+iv. Exit Enter the choice from user
+If ch=1 Then call ++op
+If ch=2 Then call - - op
+If ch=3 Then call Display function
+If ch=4 Then call Exit
+
+9.Stop.
