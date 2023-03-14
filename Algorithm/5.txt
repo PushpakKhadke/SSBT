@@ -1,0 +1,16 @@
+Step 1:Start
+Step 2: Include the required header files
+Step 2: Declare a class Fact:
+Member functions:
+
+fact();
+fact(double a);
+fact(fact &b);
+
+Step 3: Write main () function and create the object of class fact.
+
+Step 4: Enter the number and pass this value into object p.
+Step 5: Copy this object into the next object q.
+Step 6: stored reference parameter value in variable c
+Step 7: Perform f=f*i up till the value of i<=c.
+Step 7: Stop
