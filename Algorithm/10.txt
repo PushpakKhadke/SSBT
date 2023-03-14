@@ -1,0 +1,28 @@
+1) Include the required header files
+
+2) Declare template of class
+T. Define the class:
+
+template<class
+T> class swap
+
+{
+
+T
+a;
+T
+b;
+
+T
+temp;
+public:
+
+void get(T x, T y)
+{
+a=x;
+b=y;
+
+}
+3. define the function show for displaying the values
+4. create object for the class swap and call all member function get () and show( )
+5. Stop.
