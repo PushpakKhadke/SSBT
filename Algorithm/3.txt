@@ -1,0 +1,33 @@
+Step 1: Include the required header files
+Step 2: Declare a class Shape:
+
+Member functions:
+
+i void area (int); Insert area of sphere
+
+ii void area (int ,int); Insert area of rectangle
+iii void area (float, int, int); Insert area of triangle
+
+Step 3: Write main () function and create the object of class area.
+
+i. Area of Sphere
+ii. Area of rectangle
+iii. Area of triangle
+iv. Exit
+
+Step 4: Choice=1 then go to the Step 5.
+
+Step 5: The function area () to find area of Sphere with one integer argument by using formula
+4*π*r*r .
+
+Step 6: Choice=2 then go to the step 7
+
+Step 7: The function area () to find area of Sphere with two integer argument by using
+formula l*b.
+
+Step 8: Choice=3 then go to the step 9
+
+Step 9: The function area () to find area of Sphere with three integer argument by using
+formula
+Step 10: Choice=4 then terminate the Program
+Step 11: Stop
