@@ -1,0 +1,36 @@
+1. Start
+
+2. Declare base class income and declare the variable emp, name, basic,da,hra,ga
+member function get()
+
+3. Read empno, name, bs,da,hra and calculate gs=bs+da+hra class from user in function
+End of class income
+
+4. Declare the class deduct which is publically inherited from class income
+
+5. Define member function get()
+
+6. End of class deduct
+
+7. Declare class decut, declare variable pf,lic,deduct, calculate deduce=pf+lic amd
+member function geta( ) to read all variables
+
+8. End of class deduct
+
+9. Declare Payslip which is derived which is derived from deduct
+
+10. Define member function display()
+
+11. Calculate netsalary by using following formula : Netsal= gs – netded
+
+12. Display payslip
+
+13. End of class payslip
+
+14. Define main() function
+
+15. Create object of class payslip
+
+16. Call the function get(), geta(), get1() and display() by using object of class payslip.
+
+17. Stop.
