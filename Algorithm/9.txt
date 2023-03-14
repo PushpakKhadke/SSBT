@@ -1,0 +1,22 @@
+1) Include the required header files
+
+2) Declare template of class T.
+Define the bubble sort function:
+template<class T>
+void sort (T a[ ])
+Repeat for (i=0; i<5; i++)
+
+Repeat for (j=i+1; j<5; j++)
+If (a[i] >a[j])
+Swap (a[i])
+
+3) Declare template of class X.
+Define the get function:
+Void get(int a[5])
+
+4) Write main () function.
+Data members: x [5] of int type array y [5] of float type array
+Call sort ( ) function to sort integer type elements. Call sort ( ) function to sort
+float type elements.
+
+5) Stop.
