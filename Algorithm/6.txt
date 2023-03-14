@@ -1,0 +1,25 @@
+Step1: Start
+Step2: include necessary header files.
+Step3: Declare matrix2 class globally.
+Step4: Declare matrix1 class, declare variable m & declare two dimensional array.
+Step5: Define getmatrix1,putmatrix1 functions.
+Step6: End of matrix1 class.
+
+Step7: Declare matrix2 class
+
+Step8:Definematrix2 class, declare variable m & declare two dimensional array declare
+matrixsum function as friend function.
+
+Step9: Define getmatrix2, putmatrix2 functions
+
+Step10:.define matrixsum function,Perform matrix addition as a[i][j]+b[i][j]
+
+step11: end of matrix2 class
+
+Step12: Define main function.
+
+Step13: Create object of matrix1 & matrix2 class.
+
+Step14: Call function getmatrix1,getmatrix2,putmatrix1,putmatrix2,matrixsum
+
+Step15: Stop.
