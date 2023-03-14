@@ -1,73 +1,93 @@
-// 2. Program for Parameterized Constructor
+// 1.  Write a program for Arithmetic Operation by class and Object
 
 #include <iostream>
 using namespace std;
-class Bank
+class AO
 {
 public:
-    int bal, accno, wamt, damt;
-    Bank(int a, int b) // Parameterized Constructor
+    float x, y, z;
+    void Add()
     {
-        accno = a;
-        bal = b;
+        cout << "\nEnter 1st Number : ";
+        cin >> x;
+        cout << "\nEnter 2nd Number : ";
+        cin >> y;
+        z = x + y;
+        cout << "\n Addition of " << x << " + " << y << " = " << z << endl;
     }
-    void wid();
-    void dip();
-    void display();
-};
-void Bank::wid()
-{
-    cout << "\n\n Enter Account No.:\t";
-    cin >> accno;
-    cout << "\n Enter Amount to Withdraw:\t";
-    cin >> wamt;
-    while (wamt > bal)
+    void Sub()
     {
-        cout << "\n Amount Exceeding Balance \n\n\t Enter Valid Amount\t";
-        cin >> wamt;
+        cout << "\nEnter 1st Number : ";
+        cin >> x;
+        cout << "\nEnter 2nd Number : ";
+        cin >> y;
+        z = x - y;
+        cout << "\n Subtraction of " << x << " - " << y << " = " << z << endl;
     }
-    bal -= wamt;
-    cout << "\n\n Remaining Balance:\t" << bal;
+    void Mul()
+    {
+        cout << "\nEnter 1st Number : ";
+        cin >> x;
+        cout << "\nEnter 2nd Number : ";
+        cin >> y;
+        z = x * y;
+        cout << "\n Multiplication of " << x << " * " << y << " = " << z << endl;
+    }
+    void Div()
+    {
+        cout << "\nEnter 1st Number : ";
+        cin >> x;
+        cout << "\nEnter 2nd Number : ";
+        cin >> y;
+        z = (x) / y;
+        cout << "\n Division of " << x << " / " << y << " = " << z << endl;
+    }
+    void Mod()
+    {
+        cout << "\nEnter 1st Number : ";
+        cin >> x;
+        cout << "\nEnter 2nd Number : ";
+        cin >> y;
+        z = int(x) % int(y);
+        cout << "\n Remainder of " << x << " / " << y << " = " << z << endl;
+    }
 };
-void Bank::dip()
-{
-    cout << "\n\n Enter Account No.:\t";
-    cin >> accno;
-    cout << "\n\n Enter Account To Deposit:\t";
-    cin >> damt;
-    bal += damt;
-    cout << "\n\n Remaining Balance:\t" << bal;
-};
-void Bank::display()
-{
-    cout << "\n\n Enter Account No.:\t";
-    cin >> accno;
-    cout << "\n Balance:\t" << bal;
-};
+
 int main()
 {
-    Bank p(1, 5000);
-    int choice;
+    AO Z;
+    int s;
     do
     {
-        cout << "\n\n Enter Your Choice From Following:";
-        cout << "\n\n 1.\t Withdraw Amount";
-        cout << "\n\n 2.\t Deposite Amount";
-        cout << "\n\n 3.\t Display Amount";
-        cout << "\n\n 4.\t Exit Program\n\n Choice:\t";
-        cin >> choice;
-        switch (choice)
+        cout << "\nInput\tMenu" << endl;
+        cout << "\n 1\t Addition" << endl;
+        cout << "\n 2\t Subtraction" << endl;
+        cout << "\n 3\t Multiplication" << endl;
+        cout << "\n 4\t Division" << endl;
+        cout << "\n 5\t Remainder" << endl;
+        cout << "\n 6\t Exit" << endl;
+        cout << "\nSelect Operation :" << endl;
+        cin >> s;
+
+        switch (s)
         {
         case 1:
-            p.wid();
+            Z.Add();
             break;
         case 2:
-            p.dip();
+            Z.Sub();
             break;
         case 3:
-            p.display();
+            Z.Mul();
             break;
         case 4:
+            Z.Div();
+            break;
+        case 5:
+            Z.Mod();
             break;
         }
-    } while (choice <= 3);
+    } while (s <= 5);
+    return 0;
+}
+
