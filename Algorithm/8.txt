@@ -1,0 +1,22 @@
+1.Start
+2. Declare base class student and declare the variable rollo, name, class, member function
+get()
+3. Read rollo, name, class from user in function
+End of class Student.
+4. Declare the class Marks which is publically inherited from class Student.
+5. Define member function get()
+7. End of class Marks.
+8. Declare class Marks, declare variable pf, pt, Lic and declare member function getz(). Get the
+Marks of of all Subjects and also generate the ;
+
+9. End of class deduct
+10. Declare Result which is derived which is derived from Marks and Sports class.
+11. Define member function display()
+12. Calculate netsalary by using following formula :
+Netsal= gs – netded
+13. Display payslip
+14. End of class payslip
+15. Define main() function
+16. Create object of class payslip
+17. Call the function get(), getz(), get1() and display() by using object of class payslip.
+18. Stop.
