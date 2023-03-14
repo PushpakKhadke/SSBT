@@ -1,0 +1,23 @@
+1. Start
+2. Declaration of class Bank
+3. Declaration of data members of class
+4. Declaration of default constructor i.e. bank()
+5. Enter the name of account-holder
+6. Enter the number of account-number
+7. Declaration of parameterized constructor i.e. account(int bal)
+8. Display the initial balance
+9. Calculate new balance after deposit
+10. Declaration of copy constructor i.e.
+11. account (account &a)
+12. Enter the withdrawal amount If balance > withdrawal
+13. Then display balance
+14. Else
+15. Display can’t withdraw
+16.
+a. .End of class.
+b. . Main function declaration
+c. . Create object of class account.
+d. - Create amt variable, read deposit amount pass the amount as argument to
+object of account i.e. account a1(amount). Also pass second object to the third
+object i.e. account a2 (a7).
+17. Stop.
